@@ -161,8 +161,8 @@ $(document).ready(function() {
 
     $("#share").jsSocials({
         shares: ["email", "twitter", "facebook", "linkedin", "whatsapp"],
-        url: "http://joshuagato.unaux.com/?i=1",
-        text: "Joshua Gato's Portfolio",
+        url: "https://jgato410.github.io/",
+        text: "Joshua Gato's Portfolio Website",
         showLabel: false,
         showCount: true,
         shareIn: "blank",
