@@ -1,4 +1,5 @@
 $(window).on("load", function() {
+
     $(".loader .inner").fadeOut(500, function() {
         $(".loader").fadeOut(750);
     });
@@ -32,12 +33,15 @@ $(window).on("load", function() {
 
     // $("[data-fancybox]").fancybox();
     // $(".open-button").fancybox();
-
-
 });
 
 
+
 $(document).ready(function() {
+
+  // var date = new Date();
+  // // var year date.getFullYear();
+  // console.log(date);
 
   // $(function () {
   //   $('.floating-wpp').floatingWhatsApp({
@@ -52,6 +56,11 @@ $(document).ready(function() {
   // });
 
 
+    // Display the year Automatically
+    var date = new Date();
+    var year = date.getFullYear();
+    // console.log(year);
+    document.querySelector("#year").innerHTML = year;
 
 
 
