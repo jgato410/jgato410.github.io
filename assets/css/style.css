@@ -289,7 +289,7 @@ body {
   z-index: 100;
   width: 100%;
 }
-@media (min-width: 60rem) {
+@media (min-width: 992px) {
   #navigation div {
     display: flex;
     justify-content: flex-end;
@@ -303,12 +303,11 @@ body {
 }
 #navigation li a.icons {
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
 }
-@media (max-width: 50rem) {
+@media (max-width: 991px) {
   #navigation li a.icons {
-    display: inline-block;
     margin: 0 4px;
     width: 16px;
     height: 16px;
@@ -321,7 +320,7 @@ body {
 #navigation li a img:hover, #navigation li a img:focus, #navigation li a img:active {
   opacity: 1;
 }
-@media (max-width: 48rem) {
+@media (max-width: 991px) {
   #navigation li a img {
     width: 100%;
   }

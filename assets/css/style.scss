@@ -357,7 +357,7 @@ body {
     z-index: 100;
     width: 100%;
 
-    @media (min-width: 60rem) {
+    @media (min-width: 992px) {
       div {
         display: flex;
         justify-content: flex-end;
@@ -373,13 +373,13 @@ body {
 
             &.icons {
               display: inline-block;
-              width: 16px;
-              height: 16px;
+              width: 32px;
+              height: 32px;
             }
 
-            @media (max-width: 50rem) {
+            @media (max-width: 991px) {
               &.icons {
-                display: inline-block;
+                // display: inline-block;    //Redundant code
                 margin: 0 4px;
                 width: 16px;
                 height: 16px;
@@ -395,7 +395,7 @@ body {
               }
             }
 
-            @media (max-width: 48rem) {
+            @media (max-width: 991px) {
               img {
                 width: 100%;
               }
