@@ -141,7 +141,7 @@ $(document).ready(function() {
     });
 
 
-    $("#navigation li a").click(function(e) {
+    $("#navigation li a.in-nav").click(function(e) {
         e.preventDefault();
 
         var targetElement = $(this).attr("href");
