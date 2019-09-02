@@ -420,6 +420,7 @@ body {
 .navbar-toggler-icon {
     background: url(../images/icons/menu.png);
     background-size: 100%;
+    opacity: 0.5;
 
     // This code did not work but the following code did
     // &:hover,
@@ -428,6 +429,10 @@ body {
     //     outline: none;
     //     border: none;
     // }
+    &:hover {
+      opacity: 1;
+
+    }
 }
 
 button {

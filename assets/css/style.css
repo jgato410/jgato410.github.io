@@ -338,6 +338,10 @@ body {
 .navbar-toggler-icon {
   background: url(../images/icons/menu.png);
   background-size: 100%;
+  opacity: 0.5;
+}
+.navbar-toggler-icon:hover {
+  opacity: 1;
 }
 
 button.navbar-toggler:hover, button.navbar-toggler:focus, button.navbar-toggler:active {
